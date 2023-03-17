@@ -1,5 +1,2 @@
-# info.favio
-info.favio
+# My portfolio
 
-
-https://favio102.github.io/info.favio/
