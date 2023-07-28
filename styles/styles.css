@@ -347,22 +347,28 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 40%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 40%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 40%;
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .linux {
-  width: 50%;
+  width: 70%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
-  width: 40%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 70%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .devops {
-  width: 40%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .rails {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
+  width: 65%;
 }
 
 .stat-title {
