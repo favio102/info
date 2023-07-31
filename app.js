@@ -33,9 +33,25 @@ function fetchHeaderContent() {
           console.error('Error fetching header:', error);
       });
 }
-
 // Call the function to fetch the header content when the page loads
 document.addEventListener('DOMContentLoaded', fetchHeaderContent);
+
+
+// Function to fetch the header content from pages/contact.html
+function fetchContactContent() {
+  fetch('pages/contact.html')
+      .then(response => response.text())
+      .then(content => {
+          const contactContainer = document.getElementById('contactContainer');
+          contactContainer.innerHTML = content;
+      })
+      .catch(error => {
+          console.error('Error fetching contact:', error);
+      });
+}
+// Call the function to fetch the contact content when the page loads
+document.addEventListener('DOMContentLoaded', fetchContactContent);
+
 
 
 
