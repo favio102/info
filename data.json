@@ -258,17 +258,53 @@
       "sub-title": "JavaScript Project",
       "description": "to update...",
       "img": "img/16 - Random quote machine.png",
-      "url-page": "https://favio102.github.io/markdown_previewer/",
-      "url-source": "https://github.com/favio102/markdown_previewer/tree/master"
+      "url-page": "https://favio102.github.io/bootStrap_random_quote_machine/",
+      "url-source": "https://github.com/favio102/bootStrap_random_quote_machine"
     },
     {
       "id": 30,
-      "title": "",
-      "sub-title": "Test",
+      "title": "Rock, Paper or Scissors Game App",
+      "sub-title": "JavaScript Project",
       "description": "to update...",
-      "img": "",
-      "url-page": "",
-      "url-source": ""
+      "img": "img/17-rock-paper-scissors-app.png",
+      "url-page": "https://favio102.github.io/js-app-1/",
+      "url-source": "https://github.com/favio102/js-app-1"
+    },
+    {
+      "id": 31,
+      "title": "Calculator App",
+      "sub-title": "JavaScript Project",
+      "description": "to update...",
+      "img": "img/18-calculator-app.png",
+      "url-page": "https://favio102.github.io/calculator-js/",
+      "url-source": "https://github.com/favio102/calculator-js"
+    },
+    {
+      "id": 32,
+      "title": "Jukebox App",
+      "sub-title": "Ruby Project",
+      "description": "to update...",
+      "img": "img/19-jukebox.png",
+      "url-page": "https://jukebox-oef9.onrender.com/",
+      "url-source": "https://github.com/favio102/jukebox"
+    },
+    {
+      "id": 33,
+      "title": "Watch List App",
+      "sub-title": "Ruby Project",
+      "description": "to update...",
+      "img": "img/20-watch-list.png",
+      "url-page": "https://rails-watch-list-101-d830080712a2.herokuapp.com/",
+      "url-source": "https://github.com/favio102/rails-watch-list"
+    },
+    {
+      "id": 34,
+      "title": "Food Delivery App",
+      "sub-title": "Ruby Project",
+      "description": "to update...",
+      "img": "img/21-food-delivery-app.png",
+      "url-page": "https://okasan-food-karasugummi-11b736e4f407.herokuapp.com/",
+      "url-source": "https://github.com/KarasuGummi/okasan_food"
     }
   ]
 }

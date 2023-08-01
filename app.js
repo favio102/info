@@ -15,11 +15,11 @@
 
 // preloader
 
-const preloader = document.querySelector(".preloader");
-window.addEventListener("load", function(){
-    preloader.classList.add("hide-preloader");
+// const preloader = document.querySelector(".preloader");
+// window.addEventListener("load", function(){
+//     preloader.classList.add("hide-preloader");
 
-})
+// })
 
 // Function to fetch the header content from pages/header.html
 function fetchHeaderContent() {
@@ -106,7 +106,7 @@ function fetchAndInterpolateData() {
               link2.setAttribute('target', '_blank');
               link2.classList.add('icon');
               const icon2 = document.createElement('i');
-              icon2.classList.add('fab', 'fa-globe');
+              icon2.classList.add('fas', 'fa-globe-africa');
               link2.appendChild(icon2);
 
               icons.appendChild(link1);
