@@ -52,6 +52,32 @@ function fetchContactContent() {
 // Call the function to fetch the contact content when the page loads
 document.addEventListener('DOMContentLoaded', fetchContactContent);
 
+
+// Load tool from tech_tools.json
+fetch('data/techtools.json')
+  .then(response => response.json())
+  .then(data => {
+    const toolItems = data.tools;
+    const sectionCenter = document.getElementById("toolList");
+    displayToolItems(toolItems, sectionCenter);
+  })
+  .catch(error => console.error('Error fetching tool:', error));
+
+function displayToolItems(toolItems, sectionCenter) {
+  let displayTool = toolItems.map(function (item) {
+    return `
+          <a href=${item.href} target="_blank" rel="noreferrer">
+            <img src=${item.src} alt=${item.alt} width="40" height="40"/>
+          </a>`;
+  });
+  displayTool = displayTool.join("");
+  sectionCenter.innerHTML = displayTool;
+}
+
+
+
+
+
 // Load project from project.json
 fetch('data/project.json')
   .then(response => response.json())

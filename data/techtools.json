@@ -1,0 +1,100 @@
+{
+  "tools": [
+    {
+      "id": 1,
+      "href": "https://getbootstrap.com",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg",
+      "alt": "bootstrap"
+    },
+    {
+      "id": 2,
+      "href": "https://www.w3schools.com/css/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+      "alt": "css3"
+    },
+    {
+      "id": 3,
+      "href": "https://git-scm.com/",
+      "src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+      "alt": "git"
+    },
+    {
+      "id": 4,
+      "href": "https://www.w3.org/html/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+      "alt": "html5"
+    },
+    {
+      "id": 5,
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      "alt": "javascript"
+    },
+    {
+      "id": 6,
+      "href": "https://mariadb.org/",
+      "src": "https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg",
+      "alt": "mariadb"
+    },
+    {
+      "id": 7,
+      "href": "https://www.mysql.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      "alt": "mysql"
+    },
+    {
+      "id": 8,
+      "href": "https://nodejs.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
+      "alt": "nodejs"
+    },
+    {
+      "id": 9,
+      "href": "https://www.photoshop.com/en",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg",
+      "alt": "photoshop"
+    },
+    {
+      "id": 10,
+      "href": "https://www.postgresql.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+      "alt": "postgresql"
+    },
+    {
+      "id": 11,
+      "href": "https://www.python.org",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      "alt": "python"
+    },
+    {
+      "id": 12,
+      "href": "https://reactjs.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+      "alt": "react"
+    },
+    {
+      "id": 13,
+      "href": "https://www.ruby-lang.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original-wordmark.svg",
+      "alt": "ruby"
+    },
+    {
+      "id": 14,
+      "href": "https://www.figma.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+      "alt": "figma"
+    },
+    {
+      "id": 15,
+      "href": "https://www.linux.org/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg",
+      "alt": "linux"
+    },
+    {
+      "id": 16,
+      "href": "https://www.rails.com/",
+      "src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg",
+      "alt": "rails"
+    }
+  ]
+}
