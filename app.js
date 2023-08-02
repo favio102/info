@@ -52,15 +52,15 @@ function fetchContactContent() {
 // Call the function to fetch the contact content when the page loads
 document.addEventListener('DOMContentLoaded', fetchContactContent);
 
-// Load data from data.json
-fetch('data.json')
+// Load project from project.json
+fetch('data/project.json')
   .then(response => response.json())
-  .then(data => {
-    const projectItems = data.projects;
+  .then(project => {
+    const projectItems = project.projects;
     const sectionCenter = document.getElementById("portfolioList");
     displayProjectItems(projectItems, sectionCenter);
   })
-  .catch(error => console.error('Error fetching data:', error));
+  .catch(error => console.error('Error fetching project:', error));
 
 function displayProjectItems(projectItems, sectionCenter) {
   let displayProject = projectItems.map(function (item) {
