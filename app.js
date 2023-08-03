@@ -75,6 +75,38 @@ function displayToolItems(toolItems, section) {
 }
 
 
+// Load timeline from timeline.json
+fetch('data/timeline.json')
+  .then(response => response.json())
+  .then(data => {
+    const timelineItems = data.timeline;
+    const timelineSection = document.getElementById("timelineList");
+    displayTimelineItems(timelineItems, timelineSection);
+  }).catch(error => console.error('Error fetching timeline:', error));
+
+function displayTimelineItems(timelineItems, timelineSection) {
+  let displayTimeline = timelineItems.map(function (item) {
+    return `<div class="timeline-item">
+              <div class="tl-icon">
+                <i class="${item.icon}"></i>
+              </div>
+              <p class="tl-duration">${item.duration}</p>
+              <h5>${item.title}<span>${item.subtitle}</span></h5>
+              <p>
+              ${item.description1}
+              <br//>
+              ${item.description2}
+              <br//>
+              ${item.description3}
+              <br//>
+              ${item.description4}
+              </p>
+            </div>`;
+  });
+  displayTimeline = displayTimeline.join("");
+  timelineSection.innerHTML = displayTimeline;
+}
+
 
 
 // Load project from project.json

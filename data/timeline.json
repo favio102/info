@@ -1,13 +1,26 @@
 {
   "timeline": [
     {
+      "id": 6,
+      "icon": "fas fa-graduation-cap",
+      "duration": "test",
+      "title": "test",
+      "subtitle": "test",
+      "description1": "Utest",
+      "description2": "La Paz, Bolivia",
+      "description3": "B.A. Degree in Industrial Chemistry",
+      "description4": "Faculty of Technology"
+    },
+    {
       "id": 1,
-      "title": "",
-      "sub-title": "",
-      "description": "",
-      "img": "",
-      "url-page": "",
-      "url-source": ""
+      "icon": "fas fa-briefcase",
+      "duration": "2023 Mar - 2023 Sep",
+      "title": "Web Developing",
+      "subtitle": " - FullStack Course (Tokyo)",
+      "description1": "Development workflow\nActivities and societies.",
+      "description2": "Software fundamentals and databases\nFront-end development & web design\nDeploy your app from scratch\nDevelopment workflow.",
+      "description3": "24-week part-time intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES6, SQL, git, Github, Heroku and Ruby on Rails. Designed, implemented and shipped to production a Delivery App and Rails prototype of OnTrack Team Project.",
+      "description4": "Skills: Bootstrap · Heroku · Ruby on Rails · Figma (Software) · SQL · HTML5 · CSS5 · Git · GitHub · JavaScript · Ruby"
     }
   ]
 }
