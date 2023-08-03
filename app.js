@@ -53,17 +53,17 @@ function fetchContactContent() {
 document.addEventListener('DOMContentLoaded', fetchContactContent);
 
 
-// Load tool from tech_tools.json
+// Load tool from techtools.json
 fetch('data/techtools.json')
   .then(response => response.json())
   .then(data => {
     const toolItems = data.tools;
-    const sectionCenter = document.getElementById("toolList");
-    displayToolItems(toolItems, sectionCenter);
+    const section = document.getElementById("toolList");
+    displayToolItems(toolItems, section);
   })
   .catch(error => console.error('Error fetching tool:', error));
 
-function displayToolItems(toolItems, sectionCenter) {
+function displayToolItems(toolItems, section) {
   let displayTool = toolItems.map(function (item) {
     return `
           <a href=${item.href} target="_blank" rel="noreferrer">
@@ -71,9 +71,8 @@ function displayToolItems(toolItems, sectionCenter) {
           </a>`;
   });
   displayTool = displayTool.join("");
-  sectionCenter.innerHTML = displayTool;
+  section.innerHTML = displayTool;
 }
-
 
 
 
