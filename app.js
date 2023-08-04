@@ -93,13 +93,13 @@ function displayTimelineItems(timelineItems, timelineSection) {
               <p class="tl-duration">${item.duration}</p>
               <h5>${item.title}<span>${item.subtitle}</span></h5>
               <p>
-              ${item.description1}
+              𐫰 ${item.description1}
               <br//>
-              ${item.description2}
+              𐫰 ${item.description2}
               <br//>
-              ${item.description3}
+              𐫰 ${item.description3}
               <br//>
-              ${item.description4}
+              𐫰 ${item.description4}
               </p>
             </div>`;
   });
