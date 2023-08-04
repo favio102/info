@@ -14,12 +14,11 @@
 
 
 // preloader
-
 // const preloader = document.querySelector(".preloader");
 // window.addEventListener("load", function(){
 //     preloader.classList.add("hide-preloader");
-
 // })
+
 
 // Function to fetch the header content from pages/header.html
 function fetchHeaderContent() {
@@ -65,10 +64,9 @@ fetch('data/techtools.json')
 
 function displayToolItems(toolItems, section) {
   let displayTool = toolItems.map(function (item) {
-    return `
-          <a href=${item.href} target="_blank" rel="noreferrer">
-            <img src=${item.src} alt=${item.alt} width="40" height="40"/>
-          </a>`;
+    return `<a href=${item.href} target="_blank" rel="noreferrer">
+              <img src=${item.src} alt=${item.alt} width="40" height="40"/>
+            </a>`;
   });
   displayTool = displayTool.join("");
   section.innerHTML = displayTool;
@@ -107,8 +105,6 @@ function displayTimelineItems(timelineItems, timelineSection) {
   timelineSection.innerHTML = displayTimeline;
 }
 
-
-
 // Load project from project.json
 fetch('data/project.json')
   .then(response => response.json())
@@ -121,28 +117,27 @@ fetch('data/project.json')
 
 function displayProjectItems(projectItems, sectionCenter) {
   let displayProject = projectItems.map(function (item) {
-    return `
-      <div class="portfolio-item">
-        <div class="image">
-          <img src=${item.img} alt=${item.title}>
-        </div>
-        <div class="hover-items">
-          <h3 id="title">
-            <li>
-              <ul>${item['sub-title']}</ul>
-              <ul>${item.title}</ul>
-            </li>
-          </h3>
-          <div class="icons">
-            <a href=${item['url-source']} target="_blank" class="icon">
-            <i class="fab fa-github"></i>
-            </a>
-            <a href=${item['url-page']} class="icon" target="_blank">
-            <i class="fab fa-globe"></i>
-            </a>
-          </div>
-        </div>
-      </div>`;
+    return `<div class="portfolio-item">
+              <div class="image">
+                <img src=${item.img} alt=${item.title}>
+              </div>
+              <div class="hover-items">
+                <h3 id="title">
+                  <li>
+                    <ul>${item['sub-title']}</ul>
+                    <ul>${item.title}</ul>
+                  </li>
+                </h3>
+                <div class="icons">
+                  <a href=${item['url-source']} target="_blank" class="icon">
+                  <i class="fab fa-github"></i>
+                  </a>
+                  <a href=${item['url-page']} class="icon" target="_blank">
+                  <i class="fab fa-globe"></i>
+                  </a>
+                </div>
+              </div>
+            </div>`;
   });
   displayProject = displayProject.join("");
   sectionCenter.innerHTML = displayProject;
