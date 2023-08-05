@@ -133,7 +133,7 @@ function displayProjectItems(projectItems, sectionCenter) {
                   <i class="fab fa-github"></i>
                   </a>
                   <a href=${item['url-page']} class="icon" target="_blank">
-                  <i class="fab fa-globe"></i>
+                  <i class="fas fa-globe"></i>
                   </a>
                 </div>
               </div>
