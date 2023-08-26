@@ -142,3 +142,8 @@ function displayProjectItems(projectItems, sectionCenter) {
   displayProject = displayProject.join("");
   sectionCenter.innerHTML = displayProject;
 }
+
+
+// Projects load with JS filter button and section
+
+// Need to be updated
