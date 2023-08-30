@@ -2,6 +2,7 @@
   "projects": [
     {
       "id": 1,
+      "category": "group one",
       "title": "Cat Photo App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -11,6 +12,7 @@
     },
     {
       "id": 2,
+      "category": "group one",
       "title": "Cafe Menu App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -20,6 +22,7 @@
     },
     {
       "id": 3,
+      "category": "group one",
       "title": "Set of Colored Markers App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -29,6 +32,7 @@
     },
     {
       "id": 4,
+      "category": "group one",
       "title": "Registration Form App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -38,6 +42,7 @@
     },
     {
       "id": 5,
+      "category": "group one",
       "title": "Survey Form App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -47,6 +52,7 @@
     },
     {
       "id": 6,
+      "category": "group one",
       "title": "Rothko Painting App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -56,6 +62,7 @@
     },
     {
       "id": 7,
+      "category": "group one",
       "title": "Photo gallery App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -65,6 +72,7 @@
     },
     {
       "id": 8,
+      "category": "group two",
       "title": "Nutrition Label App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -74,6 +82,7 @@
     },
     {
       "id": 9,
+      "category": "group two",
       "title": "Quiz Page App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -83,6 +92,7 @@
     },
     {
       "id": 10,
+      "category": "group two",
       "title": "Tribute Page App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -92,6 +102,7 @@
     },
     {
       "id": 11,
+      "category": "group two",
       "title": "Balance Sheet App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -101,6 +112,7 @@
     },
     {
       "id": 12,
+      "category": "group two",
       "title": "Picasso Painting App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -110,6 +122,7 @@
     },
     {
       "id": 13,
+      "category": "group three",
       "title": "Piano Page App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -119,6 +132,7 @@
     },
     {
       "id": 14,
+      "category": "group three",
       "title": "Technical Documentation App",
       "sub-title": "Responsive Design",
       "description": "to update...",
@@ -128,6 +142,7 @@
     },
     {
       "id": 15,
+      "category": "group three",
       "title": "Color Flipper App",
       "sub-title": "React",
       "description": "to update...",
@@ -137,6 +152,7 @@
     },
     {
       "id": 16,
+      "category": "group three",
       "title": "Counter App",
       "sub-title": "React",
       "description": "to update...",
@@ -146,6 +162,7 @@
     },
     {
       "id": 17,
+      "category": "group three",
       "title": "Reviews App",
       "sub-title": "React",
       "description": "to update...",
@@ -155,6 +172,7 @@
     },
     {
       "id": 18,
+      "category": "group four",
       "title": "Navbar App",
       "sub-title": "React",
       "description": "to update...",
@@ -164,6 +182,7 @@
     },
     {
       "id": 19,
+      "category": "group four",
       "title": "Sidebar App",
       "sub-title": "React",
       "description": "to update...",
@@ -173,6 +192,7 @@
     },
     {
       "id": 20,
+      "category": "group four",
       "title": "Modal App",
       "sub-title": "React",
       "description": "to update...",
@@ -182,6 +202,7 @@
     },
     {
       "id": 21,
+      "category": "group four",
       "title": "Questions App",
       "sub-title": "React",
       "description": "to update...",
@@ -191,6 +212,7 @@
     },
     {
       "id": 22,
+      "category": "group four",
       "title": "Menu App",
       "sub-title": "React",
       "description": "to update...",
@@ -200,6 +222,7 @@
     },
     {
       "id": 23,
+      "category": "group four",
       "title": "Video App",
       "sub-title": "React",
       "description": "to update...",
@@ -209,6 +232,7 @@
     },
     {
       "id": 24,
+      "category": "group four",
       "title": "Scroll App",
       "sub-title": "React",
       "description": "to update...",
@@ -218,6 +242,7 @@
     },
     {
       "id": 25,
+      "category": "group four",
       "title": "Tabs App",
       "sub-title": "React",
       "description": "to update...",
@@ -227,6 +252,7 @@
     },
     {
       "id": 26,
+      "category": "",
       "title": "Countdown Timer App",
       "sub-title": "React",
       "description": "to update...",
@@ -236,6 +262,7 @@
     },
     {
       "id": 27,
+      "category": "group five",
       "title": "Lorem Ipsum App",
       "sub-title": "React",
       "description": "to update...",
@@ -245,6 +272,7 @@
     },
     {
       "id": 28,
+      "category": "group five",
       "title": "Markdown Previewer App",
       "sub-title": "React",
       "description": "to update...",
@@ -254,6 +282,7 @@
     },
     {
       "id": 29,
+      "category": "group five",
       "title": "Random Quote Machine App",
       "sub-title": "React",
       "description": "to update...",
@@ -263,6 +292,7 @@
     },
     {
       "id": 30,
+      "category": "group five",
       "title": "Rock, Paper or Scissors Game App",
       "sub-title": "JavaScript",
       "description": "to update...",
@@ -272,6 +302,7 @@
     },
     {
       "id": 31,
+      "category": "group five",
       "title": "Calculator App",
       "sub-title": "JavaScript",
       "description": "to update...",
@@ -281,6 +312,7 @@
     },
     {
       "id": 32,
+      "category": "group five",
       "title": "Jukebox App",
       "sub-title": "Ruby Project",
       "description": "to update...",
@@ -290,6 +322,7 @@
     },
     {
       "id": 33,
+      "category": "group five",
       "title": "Watch List App",
       "sub-title": "Ruby Project",
       "description": "to update...",
@@ -299,6 +332,7 @@
     },
     {
       "id": 34,
+      "category": "group five",
       "title": "Food Delivery App",
       "sub-title": "Ruby Project",
       "description": "to update...",
@@ -308,6 +342,7 @@
     },
         {
       "id": 35,
+      "category": "group five",
       "title": "Learning App",
       "sub-title": "On Rails",
       "description": "to update...",

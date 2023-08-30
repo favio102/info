@@ -143,7 +143,54 @@ function displayProjectItems(projectItems, sectionCenter) {
   sectionCenter.innerHTML = displayProject;
 }
 
+// // New version Load projects
+// // Load projects
+// const sectionCenter = document.querySelector('.section-center');
+// const container = document.querySelector('.btn-container');
 
-// Projects load with JS filter button and section
+// // Projects load with JS filter button and section
+// window.addEventListener('DOMContentLoaded', function () {
+//   displayProjectItems(project);
+//   displayProjectButtons();
+// });
 
-// Need to be updated
+// function displayProjectItems(projectItems){
+//   let displayProject = projectItems.map(function (item) {
+//     return `<div class="portfolio-item">
+//               <div class="image">
+//                 <img src=${item.img} alt=${item.title}>
+//               </div>
+//               <div class="hover-items">
+//                 <h3 id="title">
+//                   <li>
+//                     <ul>${item['sub-title']}</ul>
+//                     <ul>${item.title}</ul>
+//                   </li>
+//                 </h3>
+//                 <div class="icons">
+//                   <a href=${item['url-source']} target="_blank" class="icon">
+//                   <i class="fab fa-github"></i>
+//                   </a>
+//                   <a href=${item['url-page']} class="icon" target="_blank">
+//                   <i class="fas fa-globe"></i>
+//                   </a>
+//                 </div>
+//               </div>
+//             </div>`;
+//   });
+//   displayProject = displayProject.join("");
+//   sectionCenter.innerHTML = displayProject;
+// }
+
+// // New bottom filter
+// function displayProjectButtons() {
+//   const categories = project.reduce(
+//     function (values, item) {
+//       if (!values.includes(item.category)){
+//         values.push(item.category);
+//       }
+//       return values;
+//     }, ["All"]
+//   );
+
+// }
