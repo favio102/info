@@ -144,21 +144,31 @@ function displayProjectItems(projectItems, sectionCenter) {
 }
 
 // // New version Load projects
-// // Load projects
-// const sectionCenter = document.querySelector('.section-center');
-// const container = document.querySelector('.btn-container');
 
-// // Projects load with JS filter button and section
-// window.addEventListener('DOMContentLoaded', function () {
-//   displayProjectItems(project);
-//   displayProjectButtons();
+// document.addEventListener("DOMContentLoaded", function() {
+//   // // Load project from project.json
+//   fetch('data/project.json')
+//     .then(response => response.json())
+//     .then(project => {
+//       const projectItems = project.projects;
+//       const sectionCenter = document.getElementById(".section-center");
+//       const container = document.querySelector(".btn-container");
+
+//       if (sectionCenter) {
+//         displayProjectItems(projectItems, sectionCenter);
+//         displayProjectButtons(projectItems, container);
+//       } else {
+//         console.error("Error: Element with class 'section-center' not found.");
+//       }
+//     })
+//     .catch(error => console.error('Error fetching project:', error));
 // });
 
-// function displayProjectItems(projectItems){
+// function displayProjectItems(projectItems, sectionCenter){
 //   let displayProject = projectItems.map(function (item) {
 //     return `<div class="portfolio-item">
 //               <div class="image">
-//                 <img src=${item.img} alt=${item.title}>
+//                 <img src="${item.img}" alt="${item.title}">
 //               </div>
 //               <div class="hover-items">
 //                 <h3 id="title">
@@ -168,10 +178,10 @@ function displayProjectItems(projectItems, sectionCenter) {
 //                   </li>
 //                 </h3>
 //                 <div class="icons">
-//                   <a href=${item['url-source']} target="_blank" class="icon">
+//                   <a href="${item['url-source']}" target="_blank" class="icon">
 //                   <i class="fab fa-github"></i>
 //                   </a>
-//                   <a href=${item['url-page']} class="icon" target="_blank">
+//                   <a href="${item['url-page']}" class="icon" target="_blank">
 //                   <i class="fas fa-globe"></i>
 //                   </a>
 //                 </div>
@@ -183,14 +193,34 @@ function displayProjectItems(projectItems, sectionCenter) {
 // }
 
 // // New bottom filter
-// function displayProjectButtons() {
-//   const categories = project.reduce(
+// function displayProjectButtons(projectItems, container) {
+//   const categories = projectItems.reduce(
 //     function (values, item) {
 //       if (!values.includes(item.category)){
 //         values.push(item.category);
 //       }
 //       return values;
-//     }, ["All"]
+//     }, ["all"]
 //   );
-
+//     const categoriesBtns = categories.map(function (category) {
+//       return `<button class="filter-btn" type="button" data-id="${category}">${category}</button>`;
+//     }).join("");
+//     container.innerHTML = categoriesBtns;
+//     const filterBtns = container.querySelectorAll(".filter-btn");
+//     // filter items
+//     filterBtns.forEach(function(btn){
+//       btn.addEventListener("click", function(e){
+//         const category = e.currentTarget.dataset.id;
+//         const projectCategory = projectItems.filter(function(projectItem) {
+//           if (projectItem.category === category){
+//             return projectItem;
+//           }
+//         });
+//         if (category === "all"){
+//           displayProjectItems(projectItems, sectionCenter);
+//         } else {
+//           displayProjectItems(projectCategory, sectionCenter);
+//         }
+//       });
+//     });
 // }
