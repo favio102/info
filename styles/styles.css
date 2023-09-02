@@ -621,6 +621,9 @@ section {
   display: flex;
   align-self: flex-start;
 }
+.btn-container {
+  display: flex;
+}
 
 .main-btn {
   border-radius: 30px;
