@@ -634,7 +634,7 @@ section {
   overflow: hidden;
 }
 .main-btn .btn-text {
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
