@@ -146,52 +146,54 @@ function displayProjectItems(projectItems, sectionCenter) {
   sectionCenter.innerHTML = displayProject;
 }
 
-// // New bottom filter
-// function displayProjectButtons(projectItems) {
-//   const categories = projectItems.reduce(
-//     function (values, item) {
-//       if (!values.includes(item.category)){
-//         values.push(item.category);
-//       }
-//       return values;
-//     }, ["all"]
-//   );
-//     const container = document.querySelector(".btn-container");
-//     const categoriesBtns = categories.map(function (category) {
-//       return `<div class="filter-btn btn-con">
-//                 <a href="#" class="main-btn">
-//                   <span class="btn-text" data-id="${category}">${category}</span>
-//                 </a>
-//               </div>`;
-//     }).join("");
-//     container.innerHTML = categoriesBtns;
-//     const filterBtns = container.querySelectorAll(".filter-btn");
-//     // filter items
-//     filterBtns.forEach(function(btn){
-//       btn.addEventListener("click", function(e){
-//         const category = e.currentTarget.querySelector(".btn-text").dataset.id;
-//         if (category === "all"){
-//           displayAllProjectItems(projectItems);
-//         } else {
-//           filterProjectItemsByCategory(projectItems, category);
-//         }
-//       });
-//     });
-// }
+
+
+// New bottom filter
+function displayProjectButtons(projectItems) {
+  const categories = projectItems.reduce(
+    function (values, item) {
+      if (!values.includes(item.category)){
+        values.push(item.category);
+      }
+      return values;
+    }, ["All"]
+  );
+    const container = document.querySelector(".btn-container");
+    const categoriesBtns = categories.map(function (category) {
+      return `<div class="filter-btn btn-con">
+                <a href="#" class="main-btn">
+                  <span class="btn-text" data-id="${category}">${category}</span>
+                </a>
+              </div>`;
+    }).join("");
+    container.innerHTML = categoriesBtns;
+    const filterBtns = container.querySelectorAll(".filter-btn");
+    // filter items
+    filterBtns.forEach(function(btn){
+      btn.addEventListener("click", function(e){
+        const category = e.currentTarget.querySelector(".btn-text").dataset.id;
+        if (category === "all"){
+          displayAllProjectItems(projectItems);
+        } else {
+          filterProjectItemsByCategory(projectItems, category);
+        }
+      });
+    });
+}
 
 
 
-// // Function to display all project items
-// function displayAllProjectItems(projectItems) {
-//   const sectionCenter = document.getElementById("portfolioList");
-//   displayProjectItems(projectItems, sectionCenter);
-// }
+// Function to display all project items
+function displayAllProjectItems(projectItems) {
+  const sectionCenter = document.getElementById("portfolioList");
+  displayProjectItems(projectItems, sectionCenter);
+}
 
-// // Function to filter project items by category
-// function filterProjectItemsByCategory(projectItems, category) {
-//   const sectionCenter = document.getElementById("portfolioList");
-//   const filteredProjectItems = projectItems.filter(function(projectItem) {
-//     return projectItem.category === category;
-//   });
-//   displayProjectItems(filteredProjectItems, sectionCenter);
-// }
+// Function to filter project items by category
+function filterProjectItemsByCategory(projectItems, category) {
+  const sectionCenter = document.getElementById("portfolioList");
+  const filteredProjectItems = projectItems.filter(function(projectItem) {
+    return projectItem.category === category;
+  });
+  displayProjectItems(filteredProjectItems, sectionCenter);
+}

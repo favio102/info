@@ -623,6 +623,8 @@ section {
 }
 .btn-container {
   display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .main-btn {
