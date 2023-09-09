@@ -12,13 +12,11 @@
     })
 })();
 
-
 // preloader
 // const preloader = document.querySelector(".preloader");
 // window.addEventListener("load", function(){
 //     preloader.classList.add("hide-preloader");
 // })
-
 
 // Function to fetch the header content from pages/header.html
 function fetchHeaderContent() {
@@ -35,7 +33,6 @@ function fetchHeaderContent() {
 // Call the function to fetch the header content when the page loads
 document.addEventListener('DOMContentLoaded', fetchHeaderContent);
 
-
 // Function to fetch the header content from pages/contact.html
 function fetchContactContent() {
   fetch('pages/contact.html')
@@ -50,7 +47,6 @@ function fetchContactContent() {
 }
 // Call the function to fetch the contact content when the page loads
 document.addEventListener('DOMContentLoaded', fetchContactContent);
-
 
 // Load tool from techtools.json
 fetch('data/techtools.json')
@@ -71,7 +67,6 @@ function displayToolItems(toolItems, section) {
   displayTool = displayTool.join("");
   section.innerHTML = displayTool;
 }
-
 
 // Load timeline from timeline.json
 fetch('data/timeline.json')
@@ -106,7 +101,6 @@ function displayTimelineItems(timelineItems, timelineSection) {
 }
 
 // Load project from project.json
-
 fetch('data/project.json')
   .then(response => response.json())
   .then(project => {
@@ -146,8 +140,6 @@ function displayProjectItems(projectItems, sectionCenter) {
   sectionCenter.innerHTML = displayProject;
 }
 
-
-
 // New bottom filter
 function displayProjectButtons(projectItems) {
   const categories = projectItems.reduce(
@@ -180,8 +172,6 @@ function displayProjectButtons(projectItems) {
       });
     });
 }
-
-
 
 // Function to display all project items
 function displayAllProjectItems(projectItems) {
