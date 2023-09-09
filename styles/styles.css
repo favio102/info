@@ -6,14 +6,11 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #1e1c5e;
+  --color-primary: rgb(23, 5, 74);
+  --color-secondary: rgb(209, 180, 17);
   --color-white: #FFFFFF;
   --color-black: #000;
-  --color-red: #D2001A;
-  --color-blue: #0008C1;
-  --color-purple: #3B3486;
-  --color-grey-0: #f8f8f8;
+  --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
   --color-grey-3: #6c7983;
@@ -22,12 +19,11 @@
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
-  --transition: all 7s linear;
 }
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #448dee;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -79,17 +75,8 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
+  animation: appear 1s ease-in-out;
   transform: translateY(0) scaleY(1);
-}
-@-webkit-keyframes appear {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
 }
 @keyframes appear {
   0% {
@@ -161,26 +148,6 @@ section {
   pointer-events: none;
 }
 
-/* preloader */
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: var(--color-white);
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  visibility: visible;
-  z-index: 999;
-  transition: var(--transition);
-}
-.hide-preloader {
-  z-index: -999;
-  visibility: hidden;
-}
-
 /*Header-content*/
 .header-content {
   display: grid;
@@ -238,7 +205,6 @@ section {
 .header-content .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
-  text-align: justify;
 }
 
 /*About*/
@@ -299,7 +265,6 @@ section {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
-  text-align: justify;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
@@ -349,25 +314,19 @@ section {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 75%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
   width: 75%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .linux {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
-  width: 70%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .rails {
-  width: 65%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 87%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .ruby {
-  width: 65%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 70%;
 }
 
 .stat-title {
@@ -404,7 +363,7 @@ section {
   position: absolute;
   left: -27px;
   top: 0;
-  background-color: var(--color-red);
+  background-color: var(--color-secondary);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -437,7 +396,6 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
-  text-align: justify;
 }
 
 .port-text {
@@ -445,7 +403,6 @@ section {
   text-align: center;
 }
 
-/*Portfolio*/
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -481,7 +438,7 @@ section {
 }
 .portfolios .portfolio-item .hover-items h3 {
   font-size: 1.5rem;
-  color: var(--color-white);
+  color: var(--color-primary);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -519,8 +476,6 @@ section {
   transform: scale(1);
 }
 
-
-/*Contact*/
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -536,7 +491,6 @@ section {
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
-  text-align: justify;
 }
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
@@ -621,11 +575,6 @@ section {
   display: flex;
   align-self: flex-start;
 }
-.btn-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
 
 .main-btn {
   border-radius: 30px;
@@ -639,7 +588,7 @@ section {
   overflow: hidden;
 }
 .main-btn .btn-text {
-  padding: 1rem 2rem;
+  padding: 0 2rem;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
