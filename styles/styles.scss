@@ -373,13 +373,23 @@ section {
         p{ color: var(--color-grey-2); }
     }
 }
+#toolList {
+  display: flex;
+  // grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
 
 //Portfolios
 .port-text {
     padding: 2rem 0;
     text-align: center;
 }
-
+.portfolio-btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  // margin-top: 3rem;
+}
 .portfolios {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
