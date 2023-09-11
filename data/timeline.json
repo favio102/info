@@ -15,34 +15,32 @@
       "id": 2,
       "icon": "fas fa-briefcase",
       "duration": "2023 Dec - Present",
-      "title": "System Integrator (Level 2 support)",
+      "title": "QA Tester/System Integrator",
       "subtitle": " - Intersoft KK (Tokyo)",
-      "description1": "Provide front line support to clients on connectivity, printing, productivity, hardware, software and network related issues.",
-      "description2": "Pc troubleshooting, OS reimage, setup configuration, data wipe.",
-      "description3": "Ticket system management (service now), problem diagnosis and resolution.",
-      "description4": "Assets Management, escalation and collaboration."
+      "description1": "Conduct tests to improve the quality of websites and mobile applications.",
+      "description2": "Checking the correct operation of functions and identifying and reporting bugs.",
+      "description3": "Provide front line support to clients on connectivity, productivity, hardware, software and network related issues.",
+      "description4": "Ticket system management, problem diagnosis and resolution, Assets Management, report and escalation."
     },
     {
       "id": 3,
       "icon": "fas fa-briefcase",
-      "duration": "2021 dec - 2023 jan",
-      "title": "Tech Support Engineer",
-      "subtitle": " - Aillumission Ltda (rakuten mobile)",
-      "description1": "Support to Rakuten Mobile “Earthquake Tsunami Warning System” application deployment.",
-      "description2": "Unix/Linux platform, command line and shell scripting.",
-      "description3": "Incident investigation and escalation (logs capture , email, raise Jira and confluence ticket).",
-      "description4": "Application GUI web interface configuration and maintenance."
+      "duration": "2021 Dec - 2023 Jan",
+      "title": "QA Tester/Technical Support Engineer",
+      "subtitle": " - Rakuten Mobile (Tokyo)",
+      "description1": "Played a crucial role in ensuring the reliability and functionality of Rakuten Mobile's 'Earthquake - Tsunami Warning System' app by conducting rigorous Mobile App QA Testing, contributing to its successful deployment.",
+      "description2": "Optimized application performance by maintaining the GUI web interface.",
+      "description3": "Recognized for proactive incident resolution and efficient escalation procedures."
     },
     {
       "id": 4,
       "icon": "fas fa-briefcase",
       "duration": "2018 Oct - 2021 Oct",
-      "title": "Help Desk",
-      "subtitle": " - suzuki high-Tech (Japan)",
-      "description1": "Setting up and configuring workstations and peripheral devices for new employees.",
-      "description2": "Collaborate with senior team members to escalate complex issues and learn from their expertise.",
-      "description3": "Manage and update the ticketing system, ensuring all incidents are accurately documented.",
-      "description4": "Perform hardware repairs and replacements, such as installing RAM, hard drives, and peripherals."
+      "title": "Help Desk Engineer",
+      "subtitle": " - Suzuki high-Tech (Japan)",
+      "description1": "Efficiently managed workstation setups and hardware maintenance.",
+      "description2": "Collaborated with senior team members to tackle complex issues and learn from their expertise.",
+      "description3": "Maintained precise incident documentation in the ticketing system."
     },
     {
       "id": 5,
@@ -57,6 +55,16 @@
     },
     {
       "id": 6,
+      "icon": "fas fa-briefcase",
+      "duration": "2015 Aug - 2016 Aug",
+      "title": "Help Desk Engineer",
+      "subtitle": " - Cofar LTDA (La Paz)",
+      "description1": "Delivered top-notch technical support to end users, ensuring their seamless experience.",
+      "description2": "Set up PCs and offered comprehensive Microsoft 365 support.",
+      "description3": "Demonstrated expertise in troubleshooting both hardware and software issues."
+    },
+    {
+      "id": 7,
       "icon": "fas fa-graduation-cap",
       "duration": "2008 Jun - 2015 Dec",
       "title": "Bachelor Degree",

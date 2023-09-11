@@ -17,6 +17,7 @@
   --color-grey-4: #454e56;
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
+  --color-grey-7: #27363e;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -396,6 +397,7 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-grey-2);
+  text-align: justify;
 }
 
 #toolList {
@@ -652,11 +654,12 @@ section {
   top: 50%;
   left: 50%;
   color: var(--color-grey-5);
-  transition: all 0.4s ease-in-out;
+  transition: opacity 0.3s ease;
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
   font-size: 6.3rem;
+  opacity: 0.1;
 }
 
 .about-container .left-about p {
