@@ -340,7 +340,7 @@
       "url-page": "https://okasan-food-karasugummi-11b736e4f407.herokuapp.com/",
       "url-source": "https://github.com/KarasuGummi/okasan_food"
     },
-        {
+    {
       "id": 35,
       "category": "Advance",
       "title": "Learning App",
@@ -349,6 +349,16 @@
       "img": "img/21-learning-app.png",
       "url-page": "http://www.ontrack.tokyo/",
       "url-source": "https://github.com/KarasuGummi/ontrack"
+    },
+    {
+      "id": 36,
+      "category": "Advance",
+      "title": "Task Manager App",
+      "sub-title": ".Vue",
+      "description": "to update...",
+      "img": "img/22-task-manager-app.png",
+      "url-page": "https://3vue-todo.netlify.app/",
+      "url-source": "https://github.com/favio102/workshop-vue3-todo"
     }
   ]
 }

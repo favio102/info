@@ -402,7 +402,7 @@ section {
 
 #toolList {
   display: flex;
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 }
 
 .port-text {
@@ -584,11 +584,6 @@ section {
 }
 
 /*Independed components*/
-.btn-con {
-  display: flex;
-  align-self: flex-start;
-}
-
 .btn-container {
   display: flex;
   flex-direction: row;

@@ -150,7 +150,7 @@ function displayProjectButtons(projectItems) {
       return values;
     }, ["All"]
   );
-    const container = document.querySelector(".btn-container");
+    const container = document.querySelector(".portfolio-btn");
     const categoriesBtns = categories.map(function (category) {
       return `<div class="filter-btn btn-con">
                 <a href="#" class="main-btn">
