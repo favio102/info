@@ -585,7 +585,7 @@ section {
   justify-content: flex-start;
 }
 
-/*Independed components*/
+/*Independent components*/
 .btn-container {
   display: flex;
   flex-direction: row;
