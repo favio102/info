@@ -59,7 +59,7 @@ header {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 50vh;
   width: 100%;
   position: absolute;
   left: 0;
@@ -169,8 +169,8 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  -webkit-clip-path: polygon(0% 0%, 100% 0, 37% 37%, 51% 48%, 0% 100%);
-  clip-path: polygon(0% 0%, 100% 0, 37% 37%, 51% 48%, 0% 100%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 37% 37%, 51% 48%, 0% 85%);
+  clip-path: polygon(0% 0%, 100% 0, 37% 37%, 51% 48%, 0% 85%);
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
