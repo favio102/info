@@ -379,6 +379,16 @@
       "img": "img/24-webstore-react.png",
       "url-page": "https://todo-buy.netlify.app/",
       "url-source": "https://github.com/favio102/webstore"
+    },
+    {
+      "id": 39,
+      "category": "Basic",
+      "title": "New projects upcoming",
+      "sub-title": "....",
+      "description": "to update...",
+      "img": "img/00-upcoming.jpg",
+      "url-page": "/",
+      "url-source": "/"
     }
   ]
 }
