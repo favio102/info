@@ -369,6 +369,16 @@
       "img": "img/23-air-bnb.png",
       "url-page": "https://favio102.github.io/airbnb-react/",
       "url-source": "https://github.com/favio102/airbnb-react"
+    },
+    {
+      "id": 38,
+      "category": "Advance",
+      "title": "Web store App",
+      "sub-title": "React, Auth0, Stripe, Netlify",
+      "description": "to update...",
+      "img": "img/24-webstore-react.png",
+      "url-page": "https://todo-buy.netlify.app/",
+      "url-source": "https://github.com/favio102/webstore"
     }
   ]
 }
