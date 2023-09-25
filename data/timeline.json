@@ -15,22 +15,22 @@
       "id": 2,
       "icon": "fas fa-briefcase",
       "duration": "2023 Dec - Present",
-      "title": "QA Tester/System Integrator",
+      "title": "QA Analyst",
       "subtitle": " - Intersoft KK (Tokyo)",
-      "description1": "Conduct tests to improve the quality of websites and mobile applications.",
-      "description2": "Checking the correct operation of functions and identifying and reporting bugs.",
-      "description3": "Provide front line support to clients on connectivity, productivity, hardware, software and network related issues.",
-      "description4": "Ticket system management, problem diagnosis and resolution, Assets Management, report and escalation."
+      "description1": "Improved website app quality through effective testing, optimizing user experiences.",
+      "description2": "Proficiently identified and reported bugs, ensuring smooth function operation and product quality.",
+      "description3": "Boosted collaboration with stakeholders and developers, resulting in highly testing processes.",
+      "description4": "Enhanced teamwork and bilingual communication for efficient issue resolution, ensuring top-quality delivery."
     },
     {
       "id": 3,
       "icon": "fas fa-briefcase",
       "duration": "2021 Dec - 2023 Jan",
-      "title": "QA Tester/Technical Support Engineer",
+      "title": "QA Analyst - Technical Support Engineer",
       "subtitle": " - Rakuten Mobile (Tokyo)",
       "description1": "Played a crucial role in ensuring the reliability and functionality of Rakuten Mobile's 'Earthquake - Tsunami Warning System' app by conducting rigorous Mobile App QA Testing, contributing to its successful deployment.",
       "description2": "Optimized application performance by maintaining the GUI web interface.",
-      "description3": "Recognized for proactive incident resolution and efficient escalation procedures."
+      "description3": "Fostered effective cross-team collaborations, demonstrating strong communication and teamwork for project success."
     },
     {
       "id": 4,
